@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.student-card {
+  margin: 10px;
+  border-radius: 5%;
+  background-color: #C2E2ED;
+  border: 1px solid #063E52;
+  padding: 15px;
+  width: 30%;
+
+  font-family: 'Slabo 27px', serif;
+  font-size: 1.5em;
+}
+
+p:first-child {
+  border-bottom: 1px solid #063E52;
+  background-color: rgba(150, 150, 150, .2);
+}

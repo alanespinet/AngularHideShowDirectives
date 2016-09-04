@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='myApp'>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Angular Hide and Show Directives</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+</head>
+<body ng-controller='getStudents'>
+
+  <div ng-repeat='student in students' class="students-information">
+    <student-info info="student"></student-info>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js" charset="utf-8"></script>
+  <script src="js/app.js" charset="utf-8"></script>
+  <script src="js/controllers.js" charset="utf-8"></script>
+  <script src="js/directives.js" charset="utf-8"></script>
+
+</body>
+</html>
